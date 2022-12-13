@@ -79,8 +79,7 @@ public class Solution {
             if (Character.toLowerCase(s.charAt(left)) == Character.toLowerCase(s.charAt(right))) {
                 right--;
                 left++;
-            }
-            else {
+            } else {
                 return false;
             }
         }
