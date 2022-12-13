@@ -1,6 +1,7 @@
 
 public class Solution {
     public String mergeAlternately(String word1, String word2) {
+        
         StringBuilder strBuilder = new StringBuilder();
         int idx = 0;
         while (idx < word1.length() || idx < word2.length()) {
@@ -12,6 +13,7 @@ public class Solution {
     }
 
     public int removeElement(int[] nums, int val) {
+        
         int j = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != val) {
@@ -23,6 +25,7 @@ public class Solution {
     }
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
+        
         int a = m + n - 1;
         int i = m - 1;
         int j = n - 1;
@@ -63,7 +66,7 @@ public class Solution {
     }
 
     public boolean isPalindrome(String s) {
-//      "A man, a plan, a canal: Panama"
+
         int left = 0;
         int right = s.length() - 1;
         while (left < right) {
